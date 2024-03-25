@@ -1,13 +1,70 @@
-body{
-    background-color: whitesmoke;
-    color: black;
-    margin-left: 50px;
-    border: 2px solid grey;
-    border-radius: 10px;
-    
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf);
 }
 h1{
-    color: rebeccapurple;
+    font-family: Norse-Bold, Arial ;
+    color: whitesmoke;
     margin-left: 20px;
+}
+.h1_left{
+    padding-top: 15vh;
+    padding-left: 7vw;
 
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    
+    background-image: url('./images/leaves.jpg');
+    display: flex;
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    font-family: Norse-Bold, Arial;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    width: 65vw;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    height: 33vh;
+    text-align: center;
+    align-items: flex-end;
+}
+.second{
+    height: 33vh;
+    background-color: wheat;
+    border-style: solid;
+    border-color: blanchedalmond;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.form-main-div{
+    display: flex;
+    flex-direction: row;
+}
+.third{
+    height: 30vh;
+    text-align: center;
 }
